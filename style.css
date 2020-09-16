@@ -1,0 +1,63 @@
+
+header, footer {
+    background-color: rgb(243, 165, 20);
+    text-align: center;
+    border: dashed black 3px;
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    border: solid black 1px;
+    margin: 20px;
+    padding: 5px;
+    background-color: darkslategray;
+    color: rgb(236, 179, 73)
+    
+}
+
+body {
+    background-color: darkslategray;
+
+}
+
+section {
+    background-color: rgb(235, 195, 122);
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+img {
+    border-radius: 30px;
+    margin: 20px;
+    border: dotted darkgoldenrod 5px;
+    float: left;
+    
+}
+
+.highelf {
+    margin-left: 800px;
+    float: left;
+}
+
+p {
+    display: inline-block;
+    float: top;
+    border: solid black 1px;
+    padding: 50px
+}
+
+.wetext {
+    margin-left: 500px;
+
+}
+
+.hetext {
+    margin-right: 500px;
+}
+
+.ktext {
+    margin-left: 500px;
+}
+    
+
