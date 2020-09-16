@@ -15,6 +15,10 @@ li {
     
 }
 
+a {
+    color: rgb(243, 165, 20)
+}
+
 body {
     background-color: darkslategray;
 
