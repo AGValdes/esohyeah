@@ -5,6 +5,7 @@ header, footer {
     border: dashed black 3px;
     padding: 10px;
 }
+
 li {
     display: inline-block;
     border: solid black 1px;
