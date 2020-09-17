@@ -45,7 +45,6 @@ img {
 
 p {
     display: inline-block;
-    float: top;
     border: solid black 1px;
     padding: 50px
     width: 100px;
