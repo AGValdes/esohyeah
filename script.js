@@ -40,10 +40,10 @@ function greetBasedOnTime(){
 }
 
 function askUserOpinion(){
-    var userAnswer = prompt('Arent RPGs the Coolest?');
-        if (userAnswer = "yes" || "yup" || "for sure" || "absolutely" || "yeah"){
+    var userAnswer = confirm('Arent RPGs the Coolest?');
+        if (userAnswer == true){
             alert('This guy gets it!')
-        } else {
+        } else if (userAnswer == false){
             alert('Wrong answer buddy')
         }
 }
