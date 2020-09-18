@@ -1,4 +1,25 @@
 'use strict'
+function areRpgsTheBest() {
+    var userAnswer = prompt("Arent RPGs the Coolest?");
+
+    while (userAnswer.toLowerCase() !== "yes") {
+        userAnswer= prompt("Wrong Answer...Try again buddy!");
+    }
+}
+
+var correctNumber = 7;
+for (var i=0; i < 4; i++){
+    var userGuess = prompt ('Guess a number between 1 and 10');
+     if ((i === 3) && (correctNumber !== userGuess)) {
+        alert('close, but no cigar!');
+   }
+    else if (userGuess === correctNumber) {
+        alert('You are Correct!');
+   }
+    else if (userGuess !== correctNumber) {
+       alert('Nope, Try Again!');
+   }
+}
 
 function askUserNameQuestion(){
     var userName = prompt('Please Enter Your Name');
@@ -39,13 +60,7 @@ function greetBasedOnTime(){
     document.write('<h3>' + greeting + '</h3>');
 }
 
-function askUserOpinion(){
-    var userAnswer = confirm('Arent RPGs the Coolest?');
-        if (userAnswer == true){
-            alert('This guy gets it!')
-        } else if (userAnswer == false){
-            alert('Wrong answer buddy')
-        }
-}
 
+ 
 
+ 
